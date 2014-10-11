@@ -15,10 +15,12 @@ $params                   = array();
 $params['Service']        = 'AWSECommerceService';
 $params['AWSAccessKeyId'] = $access_key_id;
 $params['Version']        = '2009-07-01';
-$params['Operation']      = 'ItemSearch';
+$params['Operation']      = 'ItemLookup';
 $params['ResponseGroup']  = 'Large';
-$params['SearchIndex']    = 'Books';
-$params['Keywords']       = 'もやし';
+$params['IdType']         = 'ASIN';
+$params['ItemId']         = '4873038618';
+//$params['SearchIndex']    = 'Books';
+//$params['Keywords']       = 'もやし';
 $params['AssociateTag']   = 'hironorioka28-22';
 
 $params['Timestamp'] = gmdate('Y-m-d\TH:i:s\Z');
