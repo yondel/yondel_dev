@@ -17,10 +17,9 @@ $params['AWSAccessKeyId'] = $access_key_id;
 $params['Version']        = '2009-07-01';
 $params['Operation']      = 'ItemLookup';
 $params['ResponseGroup']  = 'Large';
-$params['IdType']         = 'ASIN';
+$params['IdType']         = 'ISBN';
+$params['SearchIndex']    = 'Books';
 $params['ItemId']         = '4873038618';
-//$params['SearchIndex']    = 'Books';
-//$params['Keywords']       = 'もやし';
 $params['AssociateTag']   = 'hironorioka28-22';
 
 $params['Timestamp'] = gmdate('Y-m-d\TH:i:s\Z');
